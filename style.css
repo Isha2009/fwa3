@@ -1,0 +1,21 @@
+h3
+{
+    font-size: 25px !important;
+}
+.btn-success:hover
+{
+background-color: chocolate;
+}
+canvas
+{
+animation-name: example;
+animation-duration: 4S;
+animation-iteration-count: infinite;
+border: 1px solid black;
+/*background-color: snow;*/
+}
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px #f7004a;}
+    to{box-shadow: 1px 1px 38px #170ffc;}
+}
